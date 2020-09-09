@@ -6,6 +6,7 @@ import'./App.css';
 // Provider wraps all components 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Socks from './components_folder/Socks';
+import Login from './components_folder/Login';
 
 
 function App()  {
