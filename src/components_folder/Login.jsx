@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Form, FormGroup, Label, Button, Input } from 'reactstrap';
-// import { FacebookLoginButton } from 'react-social-login-buttons';
+import { FacebookLoginButton } from "react-social-login-buttons";
 import './Login.css';
 
 class Login extends Component {
@@ -22,6 +22,11 @@ class Login extends Component {
                     type="password" placeholder="Password"/>
                 </FormGroup>
                 <Button className="btn-lg btn-info btn-block">Login</Button>
+                <FacebookLoginButton 
+                onClick={() => alert("Say Her Name!!")} />
+                <TwitterLoginButton 
+                onClick={() => alert("Breonna Taylor!!")} />
+
             </Form>
         )
     }
