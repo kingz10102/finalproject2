@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Form, FormGroup, Label, Button, Input } from 'reactstrap';
 // import { FacebookLoginButton } from 'react-social-login-buttons';
+import './Login.css';
 
 class Login extends Component {
     render() {
@@ -9,6 +10,10 @@ class Login extends Component {
                 <h1>
                     <span className="font-weight-bold">Login Kick Users</span>
                 </h1>
+                <h2>Welcome</h2>
+                <FormGroup>
+                    
+                </FormGroup>
             </Form>
         )
     }
