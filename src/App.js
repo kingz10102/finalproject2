@@ -18,7 +18,7 @@ function App()  {
           {/* using switch method to route through pages */}
           <Switch>
                 <Route path="/" component={Home_Page} exact />
-                <Route path="/sneakers/" component={Product_Sectional} /> 
+                <Route path="/sneakers/" component={Sneakers} /> 
                 <Route path="/socks" component={Socks} exact/>
                 <Route path="/users" component={Login} exact/>
           </Switch>
