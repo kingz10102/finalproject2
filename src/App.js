@@ -17,6 +17,7 @@ function App()  {
       <div className="App">
         <Router>
           <Heading/>
+          {/* using switch method to route through pages */}
           <Switch>
                 <Route path="/" component={Home_Page} exact />
                 <Route path="/sneakers/" component={Product_Sectional} /> 
