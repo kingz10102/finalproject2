@@ -1,6 +1,6 @@
 import React from 'react';
 import Heading from './components_folder/Heading';
-import Product_Sectional from './components_folder/Sneakers';
+import Sneakers from './components_folder/Sneakers';
 import Home_Page from './components_folder/Home_Page';
 import'./App.css';
 // Provider wraps all components 
