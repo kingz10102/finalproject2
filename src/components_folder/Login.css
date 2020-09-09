@@ -12,6 +12,11 @@
 .font-weight-bold , 
 .text-center, 
 .btn-lg btn-info btn-block,
-.form-input {
+.form-input,
+.form-label {
     font-family: 'Caveat', cursive;
   }
+
+.form-label {
+    font-size: 22px;
+}

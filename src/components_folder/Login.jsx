@@ -15,12 +15,12 @@ class Login extends Component {
                 </h1>
                 <h2 className="text-center">Welcome</h2>
                 <FormGroup className="form-input">
-                    <Label c>Username</Label>
+                    <Label className="form-label">Username</Label>
                     <Input
                     type="username" placeholder="Username"/>
                 </FormGroup>
                 <FormGroup className="form-input">
-                    <Label>Password</Label>
+                    <Label className="form-label">Password</Label>
                     <Input
                     type="password" placeholder="Password"/>
                 </FormGroup>
