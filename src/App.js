@@ -4,10 +4,7 @@ import Product_Sectional from './components_folder/Product_Sectional';
 import Home_Page from './components_folder/Home_Page';
 import'./App.css';
 // Provider wraps all components 
-
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-
-import Sneakers from './components_folder/Sneakers';
 import Socks from './components_folder/Socks';
 
 
