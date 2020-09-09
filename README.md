@@ -4,7 +4,7 @@ This website is CRUD Application developed with the use of Reactjs as frontend a
 Tools used: 
 BootStrap
 Postgresql
-Flexbox, CSS Grid, 
+Flexbox, CSS Grid 
 
 
 
