@@ -7,31 +7,37 @@ import './Login.css';
 class Login extends Component {
     render() {
         return (
+           
+            <header className="form">
             <Form className="login-page">
                 <h1>
                     <span className="font-weight-bold">Login/Register</span>
                 </h1>
                 <h2 className="text-center">Welcome</h2>
-                <FormGroup>
-                    <Label>Username</Label>
+                <FormGroup className="form-input">
+                    <Label c>Username</Label>
                     <Input
                     type="username" placeholder="Username"/>
                 </FormGroup>
-                <FormGroup>
+                <FormGroup className="form-input">
                     <Label>Password</Label>
                     <Input
                     type="password" placeholder="Password"/>
                 </FormGroup>
-                <Button className="btn-lg btn-info btn-block">SK Login</Button>
+                <Button className="btn-lg btn-info btn-block">
+                    SK Login
+                    </Button>
+                <div className="text-center pt1">
+                    Or not a SK memeber  <a href ="https://nationalactionnetwork.net/">REGISTER NOW!</a>
+                </div><br></br>
                 <FacebookLoginButton 
                 onClick={() => alert("Say Her Name!!")} />
                 <TwitterLoginButton 
                 onClick={() => alert("Breonna Taylor!!")} />
-                <div className="text-center pt5">
-                    Or not a SK memeber  <a href ="">REGISTER NOW!</a>
-                </div>
-
+                
+            
             </Form>
+            </header>
         )
     }
 }
