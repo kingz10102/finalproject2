@@ -5,14 +5,13 @@ import logopic from '../images/sneakerking-logo.png'
 
 
 
-
-class Home extends React.Component {
+// below is class method for Home.jsx
+class Heading extends React.Component {
     
         render(){
             return(
             <header>
                  <img src={logopic} className = "logo" alt="" width="170"/>
-                {/* <h2 className="logo-quote"><em>Uplift your Kick game </em></h2> */}
                 <div className="container">
                <nav>
                     <ul>
@@ -38,4 +37,4 @@ class Home extends React.Component {
     
 
 
-export default Home;
+export default Heading;
