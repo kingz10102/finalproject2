@@ -8,14 +8,20 @@ class Login extends Component {
         return (
             <Form className="login-page">
                 <h1>
-                    <span className="font-weight-bold">Login Kick Users</span>
+                    <span className="font-weight-bold">Login/Register</span>
                 </h1>
-                <h2>Welcome</h2>
+                <h2 className="text-center">Welcome</h2>
                 <FormGroup>
                     <Label>Username</Label>
                     <Input
                     type="username" placeholder="Username"/>
                 </FormGroup>
+                <FormGroup>
+                    <Label>Password</Label>
+                    <Input
+                    type="password" placeholder="Password"/>
+                </FormGroup>
+                <Button className="btn-lg btn-info btn-block">Login</Button>
             </Form>
         )
     }
