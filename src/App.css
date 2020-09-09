@@ -1,0 +1,159 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Do Hyeon', sans-serif;
+
+}
+header{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+header .logo a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+header nav{
+    display: flex;
+}
+.overlay {
+    position: absolute; 
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right:0;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(10, 10, 10, 0.3);
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    flex-flow: row wrap;
+}
+
+.logo-quote {
+    font-family: 'Caveat', cursive;
+    letter-spacing: 2px;
+    font-size: x-large;
+}
+
+/* nav {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 60px 0 60px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    
+} */
+.home_box {
+    background-image:url(https://images.unsplash.com/photo-1527090526205-beaac8dc3c62?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+   
+    height: 100%;
+    width: 100%;
+}
+.quote {
+    display:flex;
+    justify-content: center;
+    /* color:  */
+    margin-top: 20%;
+    font-family: 'roboto';
+    font-size: 7em;
+    
+
+}
+@font-face {
+    src:url(./fonts/urbanfont.ttf);
+    font-family: 'roboto';
+} 
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 15px; 
+    padding-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #555;
+    padding: 0 15px;
+}
+nav ul li a:hover{
+    color: lightseagreen;
+}
+nav .nav-cart{
+    cursor: pointer;
+    position: relative;
+}
+nav .nav-cart span{
+    position: absolute;
+    top:-12px;
+    right: -7px;
+    background: crimson;
+    font-size: 10px;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: flex-start;
+
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+.image {
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+    overflow: hidden;
+    width: 225px; 
+    height: 340px;
+    border: 3px solid #eee;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 10px;
+    box-shadow: 2px 8px 20px rgb(212, 161, 161);
+    transition: 0.5s linear;
+}
+.sneaker-box {
+    font-family: 'Caveat', cursive;
+    font-size: 1.5rem;
+}
+
+.addToCart{
+    position: absolute;
+    width: 100%;
+    transition: all 0.4s ease-in-out;
+    background-color: darkgrey;
+    opacity: 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.image:hover .cart1,
+.image:hover .cart2,
+.image:hover .cart3,
+.image:hover .cart4,
+.image:hover .cart5 {
+    bottom: 50px;
+    opacity: 1;
+    padding: 10px;
+    text-decoration: none;
+}
