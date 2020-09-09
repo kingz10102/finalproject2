@@ -12,7 +12,9 @@ class Login extends Component {
                 </h1>
                 <h2>Welcome</h2>
                 <FormGroup>
-                    
+                    <Label>Username</Label>
+                    <Input
+                    type="username" placeholder="Username"/>
                 </FormGroup>
             </Form>
         )
