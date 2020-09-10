@@ -18,7 +18,7 @@ class Heading extends React.Component {
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/sneakers">Sneakers</Link></li>
                         <li><Link to="/socks">Socks</Link></li>
-                        <li><Link to="/about">About</Link></li>
+                        <li><Link to="/blog">Blog</Link></li>
                         <li><Link to="/users">Login / Register</Link></li>
                     </ul>
                         <div className="nav-cart">

@@ -12,7 +12,6 @@ class Login extends Component {
                 <h1>
                     <span className="font-weight-bold">Login/Register</span>
                 </h1>
-                <h2 className="text-center">Welcome</h2>
                 <FormGroup className="form-input">
                     <Label className="form-label">Username</Label>
                     <Input

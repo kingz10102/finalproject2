@@ -5,6 +5,7 @@ import Home_Page from './components_folder/Home_Page';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Socks from './components_folder/Socks';
 import Login from './components_folder/Login';
+import Blog from './components_folder/Blog';
 import'./App.css';
 
 
@@ -19,7 +20,9 @@ function App()  {
                 <Route path="/" component={Home_Page} exact />
                 <Route path="/sneakers/" component={Sneakers} /> 
                 <Route path="/socks" component={Socks} exact/>
+                <Route path="/blog" component={Blog} exact/>
                 <Route path="/users" component={Login} exact/>
+
           </Switch>
         </Router>
       </div>
