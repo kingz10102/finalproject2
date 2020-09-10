@@ -59,25 +59,7 @@ header nav{
     z-index: 2;
     
 } */
-.home_box {
-    object-fit: cover;
-    height:100%;
-    
-}
-.quote {
-    display:flex;
-    justify-content: center;
-    margin-top: 20%;
-    font-family: 'roboto';
-    font-size: 7em;
-    size: 12;
-    
 
-}
-@font-face {
-    src:url(./fonts/urbanfont.ttf);
-    font-family: 'roboto';
-} 
 
 nav ul li {
     list-style: none;
@@ -156,3 +138,10 @@ nav .nav-cart span{
     padding: 10px;
     text-decoration: none;
 }
+
+/*  */
+
+
+
+
+

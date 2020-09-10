@@ -1,7 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-// import AppBar from '@material-ui/core/AppBar';
-// import Toolbar from '@material-ui/core/Toolbar';
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import Container from '@material-ui/core/Container';
@@ -63,13 +63,13 @@ function Blog() {
 
   return (
     <div className="App">
-      {/* <AppBar className={classes.appBar} position="static">
+      <AppBar className={classes.appBar} position="static">
         <Toolbar>
-          <Typography variant="h6" color='primary'>
+          <Typography variant="h3" color='primary'>
             KICKZZ Blog
           </Typography>
         </Toolbar>
-      </AppBar> */}
+      </AppBar>
       <Box className={classes.sneaker}>
         <Box>Describe Your Kick Game</Box>
       </Box>
