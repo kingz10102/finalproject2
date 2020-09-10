@@ -7,8 +7,7 @@ import './Login.css';
 class Login extends Component {
     render() {
         return (
-           
-            <header className="form">
+        <header className="form">
             <Form className="login-page">
                 <h1>
                     <span className="font-weight-bold">Login/Register</span>
