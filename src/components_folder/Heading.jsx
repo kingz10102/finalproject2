@@ -11,9 +11,9 @@ class Heading extends React.Component {
         render(){
             return(
             <header>
-                 <img src={logopic} className = "logo" alt="" width="170"/>
+                 <img src={logopic} className = "logo" alt="" width="200"/>
                 <div className="container">
-               <nav>
+               <nav className="nav-bar">
                     <ul>
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/sneakers">Sneakers</Link></li>

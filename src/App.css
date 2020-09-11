@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
 
 *{
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
     box-sizing: border-box;
     font-family: 'Do Hyeon', sans-serif;
 
@@ -45,6 +45,14 @@ header nav{
     letter-spacing: 2px;
     font-size: x-large;
 
+}
+
+.nav-bar {
+    display:flex;
+    margin-top: 15px;
+    padding-left: 100px;
+    margin-left: 60px;
+    justify-content: space-between;
 }
 
 /* nav {
