@@ -15,7 +15,7 @@ function Home_Page() {
               commodi placeat ea itaque modi corrupti corporis nam voluptas aut
               reprehenderit eaque culpa.
             </p>
-            <a href="#" class="btn">Read More</a>
+            <a href="http://localhost:3000/blog" class="btn">Read More</a>
           </div>
           <img src={homepic} alt="" />
         </div>
@@ -55,6 +55,67 @@ function Home_Page() {
         /></a>
       </div>
     </section>
+
+    <footer class="section-footer py-4 bg-secondary">
+      <div class="container">
+        <div>
+          <h2 class="text-2 mb-1">Lorem ipsum dolor sit.</h2>
+          <a href="http://twitter.com">
+            <i class="fab fa-twitter fa-2x"></i>
+          </a>
+          <a href="http://facebook.com">
+            <i class="fab fa-facebook fa-2x"></i>
+          </a>
+          <a href="http://youtube.com">
+            <i class="fab fa-youtube fa-2x"></i>
+          </a>
+        </div>
+        <div>
+          <h3>Company Info</h3>
+          <ul>
+            <li><a href="#">All Products</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Blog Posts</h3>
+          <ul>
+            <li><a href="#">Lorem ipsum dolor.</a></li>
+            <li><a href="#">Lorem ipsum dolor.</a></li>
+            <li><a href="#">Lorem ipsum dolor.</a></li>
+            <li><a href="#">Lorem ipsum dolor.</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Subscribe</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <form
+            class="mt-1"
+            name="email-form"
+            method="POST"
+            data-netlify="true"
+          >
+            <div class="email-form">
+              <span class="form-control-wrap"
+                ><input
+                  type="email"
+                  name="email"
+                  id="email"
+                  size="40"
+                  class="form-control"
+                  placeholder="E-mail"/></span
+              ><button type="submit" value="Submit" class="form-control submit">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
 
       
 </header>

@@ -26,7 +26,7 @@ class Sneakers extends Component {
                             return (
                                 <div className='wrapper'>
                                 <div className="image">
-                                    <img src={sneakers.image} className="sneaker-image" alt="jordan black sneakers" width="200" /> 
+                                    <img src={sneakers.image} a href="www.google.com" className="sneaker-image" alt="jordan black sneakers" width="200" /> 
                                     <h3 className="sneaker-box">{sneakers.title}</h3>
                                     <h3 className="sneaker-box">${sneakers.price}</h3>
                                     {/* props.addBasket adds a on click action to adding to basket from addActions file  */}
