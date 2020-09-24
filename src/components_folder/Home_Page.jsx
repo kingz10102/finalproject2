@@ -15,7 +15,7 @@ function Home_Page() {
               commodi placeat ea itaque modi corrupti corporis nam voluptas aut
               reprehenderit eaque culpa.
             </p>
-            <a href="http://localhost:3000/blog" class="btn">Read More</a>
+            <a href="" class="btn">Read More</a>
           </div>
           <img src={homepic} alt="" />
         </div>
