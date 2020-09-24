@@ -11,7 +11,7 @@ class Sneakers extends Component {
             }
         }
         componentDidMount() {
-            axios.get("http://localhost:8080/sneakers/")
+            axios.get("https://sneaker-king.herokuapp.com/")
             .then(res => this.setState({ sneakers: res.data }))
             .catch(error => console.error( error.message ));
         }
